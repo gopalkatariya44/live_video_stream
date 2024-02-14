@@ -1,0 +1,28 @@
+# Bytecode
+__pycache__/
+*.pyc
+
+# Secret files
+.env
+.flaskenv
+secret_key.py
+
+# Database files
+db.sqlite3
+
+# Testing files
+tests/__pycache__/
+tests/test*.py
+
+# Coverage files
+.coverage
+coverage.xml
+
+# IDE files
+.idea/
+.vscode/
+
+venv
+
+.DS_Store
+static
